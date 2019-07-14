@@ -13,7 +13,7 @@ public class AcademicsService {
     private AcademicsDaoFactory academicsDaoFactory;
     
     public AcademicsService(){
-        this.academicsDaoFactory = (AcademicsDaoFactory)DAOFactory.getDAOFactory(DAOFactory.ACADEMICS_REPOSITORY); //revisar REPOSITORY
+        this.academicsDaoFactory = (AcademicsDaoFactory)DAOFactory.getDAOFactory(DAOFactory.ACADEMICS_REPOSITORY);
     }
     
     public List<Academics> getAcademicsList(){
